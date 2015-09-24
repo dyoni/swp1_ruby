@@ -21,8 +21,8 @@ end
 
 friend << {name:name, phonenumber:phonenumber, gender:gender}
 
-friend.each do |x|
-  puts "이름 : #u[:name], 전화번호: #u[:phonenumber],  성별: #u[:gender]"
+friend.each do |u|
+  puts "이름 : #{u[:name]}, 전화번호: #{u[:phonenumber]},  성별: #{u[:gender]}"
 end
 
 puts "if you want to add mre press any key, unless press '0'"
